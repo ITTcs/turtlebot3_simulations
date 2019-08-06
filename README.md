@@ -3,9 +3,11 @@
 
 To aggregate these simulations copy the folder `turtlebot3_gazebo` to your `turtlebot3_simulations` folder to merge the files.
 
+In the folder `scripts` are Python programs that I use to create the `modell.sdf` file of the circuits. You can modify the parameters to create other circuits with diferent sizes but with the same structure.
+
 ## Gazebo stages
 
-`turtlebot3_circuit_left_right_turns`: a 5x5 stage based on the gym-gazebo  GazeboCircuit2TurtlebotLidar env.
+**turtlebot3_circuit_left_right_turns**: a 5x5 stage based on the gym-gazebo  GazeboCircuit2TurtlebotLidar env.
 
 ```
 roslaunch turtlebot3_gazebo turtlebot3_circuit_left_right_turns.launch
@@ -13,7 +15,7 @@ roslaunch turtlebot3_gazebo turtlebot3_circuit_left_right_turns.launch
 
 <img src="images/turtlebot3_circuit_left_right_turns.jpg" width="400">
 
-`turtlebot3_circuit_simple`: a 3x3 stage.
+**turtlebot3_circuit_simple**: a 3x3 stage.
 
 ```
 roslaunch turtlebot3_gazebo turtlebot3_circuit_simple.launch
@@ -21,7 +23,7 @@ roslaunch turtlebot3_gazebo turtlebot3_circuit_simple.launch
 
 <img src="images/turtlebot3_circuit_simple.jpg" width="400">
 
-`turtlebot3_stage_1_eavelar`: a 1.8x1.8 stage based on the turtlebot3_stage_1.
+**turtlebot3_stage_1_eavelar**: a 1.8x1.8 stage based on the turtlebot3_stage_1.
 
 ```
 roslaunch turtlebot3_gazebo turtlebot3_stage_1_eavelar.launch
