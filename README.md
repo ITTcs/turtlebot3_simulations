@@ -7,6 +7,14 @@ In the folder `scripts` are Python programs that we use to create the `model.sdf
 
 These resouces are part of a master's thesis where we use the Python [fuzzylab](https://github.com/ITTcs/fuzzylab) library to create fuzzy logic controlers with the implementation of deep reinforcement learning algorithhms.
 
+To use these resources, you first need setup your PC following these tutorials:
+
+1. [Install Gazebo using Ubuntu packages](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
+
+2. [PC Setup](http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/)
+
+3. [Simulation](http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+
 ## Gazebo stages
 
 **turtlebot3_circuit_left_right_turns**: a 5x5 stage based on the gym-gazebo  GazeboCircuit2TurtlebotLidar env.
