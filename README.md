@@ -3,7 +3,9 @@
 
 To aggregate these simulations copy the folder `turtlebot3_gazebo` to your `turtlebot3_simulations` folder to merge the files.
 
-In the folder `scripts` are Python programs that I use to create the `modell.sdf` file of the circuits. You can modify the parameters to create other circuits with diferent sizes but with the same structure.
+In the folder `scripts` are Python programs that we use to create the `model.sdf` file of the circuits. You can modify the parameters to create other circuits with diferent sizes but with the same structure.
+
+These resouces are part of a master's thesis where we use the Python [fuzzylab](https://github.com/ITTcs/fuzzylab) library to create fuzzy logic controlers with the implementation of deep reinforcement learning algorithhms.
 
 ## Gazebo stages
 
