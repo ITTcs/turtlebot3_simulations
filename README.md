@@ -5,15 +5,17 @@ To aggregate these simulations copy the folder `turtlebot3_gazebo` to your `turt
 
 In the folder `scripts` are Python programs that we use to create the `model.sdf` file of the circuits. You can modify the parameters to create other circuits with diferent sizes but with the same structure.
 
-These resouces are part of a master's thesis where we use the Python [fuzzylab](https://github.com/ITTcs/fuzzylab) library to create fuzzy logic controlers with the implementation of deep reinforcement learning algorithhms.
+These resouces are part of a master's thesis where we use the Python [fuzzylab](https://github.com/ITTcs/fuzzylab) library to create fuzzy logic controlers with the implementation of deep reinforcement learning algorithms.
 
-To use these resources, you first need setup your PC following these tutorials:
+To use these resources, you first need to setup your PC following these tutorials:
 
 1. [Install Gazebo using Ubuntu packages](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
 
 2. [PC Setup](http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/)
 
 3. [Simulation](http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+
+You can apply deep reinforcement learning algorithms in the robot navigation training from [OpenAI Baselines](https://github.com/openai/baselines) and [Stable Baselines](https://github.com/hill-a/stable-baselines) to these environments with the library [gym-turtlebot3](https://github.com/ITTcs/gym-turtlebot3). Check the examples of the library.
 
 ## Gazebo stages
 
@@ -44,3 +46,15 @@ roslaunch turtlebot3_gazebo turtlebot3_stage_1_eavelar.launch
 This is a simple stage for simple real tests.
 
 <img src="images/real_turtlebot3_stage_1_eavelar.jpg" width="400">
+
+To cite this repository in publications:
+
+    @misc{turtlebot3environments,
+      author = {Avelar, Eduardo},
+      title = {Research Gazebo environments for TurtleBot3 robot},
+      year = {2019},
+      publisher = {GitHub},
+      journal = {GitHub repository},
+      howpublished = {\url{https://github.com/ITTcs/turtlebot3_simulations}},
+    }
+
